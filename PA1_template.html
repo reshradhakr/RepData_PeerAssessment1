@@ -157,8 +157,8 @@ ggplot(data=averages, aes(x=interval, y=steps)) +
 <pre><code>##     interval    steps
 ## 104      835 206.1698</code></pre>
 </div>
-<div id="inputing-missing-values" class="section level2">
-<h2>Inputing missing values</h2>
+<div id="imputing-missing-values" class="section level2">
+<h2>Imputing missing values</h2>
 <p>How many days have missing values?</p>
 <pre class="r"><code>library(ggplot2)
 missingdata &lt;- sum(is.na(activity$steps))</code></pre>

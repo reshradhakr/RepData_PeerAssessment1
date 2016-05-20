@@ -75,7 +75,7 @@ averages[which.max(averages$steps),]
 ## 104      835 206.1698
 ```
 
-## Inputing missing values
+## Imputing missing values
 
 How many days have missing values?
 

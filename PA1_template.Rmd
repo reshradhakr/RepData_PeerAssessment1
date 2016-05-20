@@ -46,7 +46,7 @@ On average across all the days in the dataset, the 5-minute interval contains th
 averages[which.max(averages$steps),]
 ```
 
-## Inputing missing values
+## Imputing missing values
 
 How many days have missing values?
 ```{r}
